@@ -1,0 +1,101 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA GeForce RTX 3070 (sm_86), runtime 13020, driver 13020
+
+8 neighbours, pattern at x0=2 y0=2: 4 of 512 patterns fail; smallest:
+      0 1 0
+      0 1 0
+      0 0 1
+
+      0 1 0
+      0 1 0
+      1 0 1
+
+      1 0 1
+      1 0 1
+      0 1 0
+
+      1 0 1
+      1 0 1
+      1 1 0
+
+8 neighbours, pattern at x0=6 y0=5: 4 of 512 patterns fail; smallest:
+      0 1 0
+      0 1 0
+      0 0 1
+
+      0 1 0
+      0 1 0
+      1 0 1
+
+      1 0 1
+      1 0 1
+      0 1 0
+
+      1 0 1
+      1 0 1
+      1 1 0
+
+8 neighbours, pattern at x0=13 y0=2: 4 of 512 patterns fail; smallest:
+      0 1 0
+      0 1 0
+      0 0 1
+
+      0 1 0
+      0 1 0
+      1 0 1
+
+      1 0 1
+      1 0 1
+      0 1 0
+
+      1 0 1
+      1 0 1
+      1 1 0
+
+8 neighbours, pattern at x0=14 y0=2: 4 of 512 patterns fail; smallest:
+      0 1 0
+      0 1 0
+      0 0 1
+
+      0 1 0
+      0 1 0
+      1 0 1
+
+      1 0 1
+      1 0 1
+      0 1 0
+
+      1 0 1
+      1 0 1
+      1 1 0
+
+8 neighbours, pattern at x0=15 y0=2: 0 of 512 patterns fail
+8 neighbours, pattern at x0=2 y0=13: 4 of 512 patterns fail; smallest:
+      0 1 0
+      0 1 0
+      0 0 1
+
+      0 1 0
+      0 1 0
+      1 0 1
+
+      1 0 1
+      1 0 1
+      0 1 0
+
+      1 0 1
+      1 0 1
+      1 1 0
+
+8 neighbours, pattern at x0=2 y0=14: 0 of 512 patterns fail
+8 neighbours, pattern at x0=2 y0=15: 0 of 512 patterns fail
+4 neighbours, pattern at x0=2 y0=2: 0 of 512 patterns fail
+4 neighbours, pattern at x0=6 y0=5: 0 of 512 patterns fail
+4 neighbours, pattern at x0=13 y0=2: 0 of 512 patterns fail
+4 neighbours, pattern at x0=14 y0=2: 0 of 512 patterns fail
+4 neighbours, pattern at x0=15 y0=2: 0 of 512 patterns fail
+4 neighbours, pattern at x0=2 y0=13: 0 of 512 patterns fail
+4 neighbours, pattern at x0=2 y0=14: 0 of 512 patterns fail
+4 neighbours, pattern at x0=2 y0=15: 0 of 512 patterns fail

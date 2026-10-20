@@ -1,0 +1,10 @@
+Lena_LabelMarkersUF_8Way_512x512_32u.raw: truth 552, file has 572 labels, broken links 70, merged labels 0 -> WRONG
+Lena_LabelMarkersUFBatch_8Way_512x512_32u.raw: truth 552, file has 556 labels, broken links 17, merged labels 0 -> WRONG
+CT_skull_LabelMarkersUF_8Way_512x512_32u.raw: truth 407, file has 435 labels, broken links 70, merged labels 0 -> WRONG
+CT_skull_LabelMarkersUFBatch_8Way_512x512_32u.raw: truth 407, file has 415 labels, broken links 44, merged labels 0 -> WRONG
+PCB_METAL_LabelMarkersUF_8Way_509x335_32u.raw: truth 3732, file has 3733 labels, broken links 26, merged labels 0 -> WRONG
+PCB_METAL_LabelMarkersUFBatch_8Way_509x335_32u.raw: truth 3732, file has 3733 labels, broken links 26, merged labels 0 -> WRONG
+PCB2_LabelMarkersUF_8Way_1024x683_32u.raw: truth 1202, file has 1272 labels, broken links 185, merged labels 0 -> WRONG
+PCB2_LabelMarkersUFBatch_8Way_1024x683_32u.raw: truth 1202, file has 1222 labels, broken links 66, merged labels 0 -> WRONG
+PCB_LabelMarkersUF_8Way_1280x720_32u.raw: truth 1436, file has 1468 labels, broken links 951, merged labels 0 -> WRONG
+PCB_LabelMarkersUFBatch_8Way_1280x720_32u.raw: truth 1436, file has 1454 labels, broken links 968, merged labels 0 -> WRONG

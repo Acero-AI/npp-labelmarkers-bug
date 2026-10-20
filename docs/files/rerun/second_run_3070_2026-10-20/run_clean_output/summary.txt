@@ -1,0 +1,44 @@
+machine: NVIDIA GeForce RTX 3070; driver Driver Version: 580.159.03
+
+== NPP from CUDA 11
+NPP 11.8.0, NVIDIA GeForce RTX 3070 (sm_86), CUDA runtime 11080, driver supports 13000
+loaded: libnppif.so.11 => /root/audit3-npp/npp-labelmarkers-report/repro/env11/nvidia/npp/lib/libnppif.so.11 libnppc.so.11 => /root/audit3-npp/npp-labelmarkers-report/repro/env11/nvidia/npp/lib/libnppc.so.11 libcudart.so.11.0 => /root/audit3-npp/npp-labelmarkers-report/repro/env11/nvidia/cuda_runtime/lib/libcudart.so.11.0 
+npp_min: 0 of 20 runs wrong, 20 right
+npp_batch: single-image call: 40 of 40 images wrong
+npp_batch: 40 of 40 images wrong
+ 25200 x  18000 ( 454 megapixels): LabelMarkersUF buffer    1814400008 bytes (status 0), CompressMarkerLabels buffer    -665708524 bytes (status 0)
+ 33600 x  24000 ( 806 megapixels): LabelMarkersUF buffer   -1069367288 bytes (status 0), CompressMarkerLabels buffer   -2137882604 bytes (status 0)
+
+== NPP from CUDA 12
+NPP 12.4.1, NVIDIA GeForce RTX 3070 (sm_86), CUDA runtime 12090, driver supports 13000
+loaded: libnppif.so.12 => /root/audit3-npp/npp-labelmarkers-report/repro/env12/nvidia/npp/lib/libnppif.so.12 libnppc.so.12 => /root/audit3-npp/npp-labelmarkers-report/repro/env12/nvidia/npp/lib/libnppc.so.12 libcudart.so.12 => /root/audit3-npp/npp-labelmarkers-report/repro/env12/nvidia/cuda_runtime/lib/libcudart.so.12 
+npp_min: 20 of 20 runs wrong, 0 right
+npp_batch: single-image call: 40 of 40 images wrong
+npp_batch: 40 of 40 images wrong
+ 25200 x  18000 ( 454 megapixels): LabelMarkersUF buffer    1814400008 bytes (status 0), CompressMarkerLabels buffer    -665708524 bytes (status 0)
+ 33600 x  24000 ( 806 megapixels): LabelMarkersUF buffer   -1069367288 bytes (status 0), CompressMarkerLabels buffer   -2137882604 bytes (status 0)
+
+== NPP from CUDA 13
+NPP 13.2.0, NVIDIA GeForce RTX 3070 (sm_86), CUDA runtime 13040, driver supports 13000
+loaded: libnppif.so.13 => /root/audit3-npp/npp-labelmarkers-report/repro/env13/nvidia/cu13/lib/libnppif.so.13 libnppc.so.13 => /root/audit3-npp/npp-labelmarkers-report/repro/env13/nvidia/cu13/lib/libnppc.so.13 libcudart.so.13 => /root/audit3-npp/npp-labelmarkers-report/repro/env13/nvidia/cu13/lib/libcudart.so.13 
+npp_min: 20 of 20 runs wrong, 0 right
+npp_batch: single-image call: 40 of 40 images wrong
+npp_batch: 40 of 40 images wrong
+ 25200 x  18000 ( 454 megapixels): LabelMarkersUF buffer    1814400008 bytes (status 0), CompressMarkerLabels buffer    -665708524 bytes (status 0)
+ 33600 x  24000 ( 806 megapixels): LabelMarkersUF buffer   -1069367288 bytes (status 0), CompressMarkerLabels buffer   -2137882604 bytes (status 0)
+
+== NVIDIA's committed files at v12.5: 20 of 20 wrong
+
+== NVIDIA's committed files at v12.8: 16 of 20 wrong
+
+== NVIDIA's sample, NPP 12.4.1, 10 runs: files wrong per run
+run 1: 16 of 20
+run 2: 16 of 20
+run 3: 14 of 20
+run 4: 12 of 20
+run 5: 16 of 20
+run 6: 14 of 20
+run 7: 14 of 20
+run 8: 14 of 20
+run 9: 14 of 20
+run 10: 14 of 20

@@ -1,0 +1,32 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA GeForce RTX 3070 (sm_86), runtime 13020, driver 13020
+
+8 neighbours, window at x0=2: 1453 of 65535 shapes fail; minimal ones (up to translation):
+   0.0   0.0   .0.   
+   0..0   0.0.   .0..   
+   0..0   .0.0   ..0.   
+   0.0.   0..0   .00.   
+   0..0   0..0   .00.   
+   0000   0..0   0.00   .00.   
+   .000   00.0   0.00   .00.   
+   .000   00.0   0..0   .000   
+8 neighbours, window at x0=13: 1691 of 65535 shapes fail; minimal ones (up to translation):
+   0.0   0.0   .0.   
+   0..0   0.0.   .0..   
+   0..0   .0.0   ..0.   
+   0.0.   0..0   .00.   
+   0..0   0..0   .00.   
+   ...0   00.0   ..00   
+   0000   0..0   0..0   .0..   
+   .000   00.0   0..0   .0..   
+   000.   0.00   0..0   .0..   
+   000   0.0   0.0   0..   
+   000   0.0   0.0   0.0   
+   0000   0..0   0.0.   0.0.   
+   0000   0..0   0..0   0.0.   
+   .000   00.0   0..0   0.0.   
+   000.   0.00   0..0   0.0.   
+   ...0   0..0   .0.0   ..00   
+   ..0   0.0   0.0   .00   

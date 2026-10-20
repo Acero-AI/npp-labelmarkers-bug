@@ -1,0 +1,28 @@
+== npp11: nvidia-npp-cu11==11.8.0.86 nvidia-cuda-runtime-cu11==11.8.89
+npp11/nvidia_cuda_runtime_cu11-11.8.89.dist-info
+npp11/nvidia_npp_cu11-11.8.0.86.dist-info
+da834cd296dfa48eaafb34f66d3e121a7e92fd77d2a48c5d01bb002e477d9eae  npp11/nvidia/npp/lib/libnppc.so.11
+00aac9b9128e66fe4007a31d503d66509367a88a7da490d366d18d9b9f6b3935  npp11/nvidia/npp/lib/libnppif.so.11
+d0da41ae1323cf4eeb610123d69d7714124cfe5ebfcc4e45f02b910e51c57ee6  npp11/nvidia/cuda_runtime/lib/libcudart.so.11.0
+== npp12: nvidia-npp-cu12==12.4.1.87 nvidia-cuda-runtime-cu12==12.9.79
+npp12/nvidia_cuda_runtime_cu12-12.9.79.dist-info
+npp12/nvidia_npp_cu12-12.4.1.87.dist-info
+8263a8a4f182be59756af5c077b6560301a2762aed7225b58efe64255858a708  npp12/nvidia/npp/lib/libnppc.so.12
+8ef1a4c2d513dc9758f8446364e1e61fcb998e422ea412733aa9aba708b63388  npp12/nvidia/npp/lib/libnppif.so.12
+256e6409e4f06f618e1fb53d4844a6b81cdded1013afa8ade40c22f99eb133b7  npp12/nvidia/cuda_runtime/lib/libcudart.so.12
+== npp13: nvidia-npp==13.2.0.58 nvidia-cuda-runtime==13.4.92
+npp13/nvidia_cuda_runtime-13.4.92.dist-info
+npp13/nvidia_npp-13.2.0.58.dist-info
+1e4b271a5a83531afcc59c1fa4bed196ed910859ce630aaf47a412cba24284e8  npp13/nvidia/cu13/lib/libnppc.so.13
+f01bac5708574d6b1ab7a05e44a0c3425584b2e4dc36c27ac088bedab3b36426  npp13/nvidia/cu13/lib/libnppif.so.13
+7fb00519a24512bf677b59e87921e5c05aac8246ceb6a57435c0d9dfeef364f6  npp13/nvidia/cu13/lib/libcudart.so.13
+== system toolkit
+lrwxrwxrwx 1 root root       14 Aug 15  2025 /usr/local/cuda/lib64/libnppif.so -> libnppif.so.13
+lrwxrwxrwx 1 root root       20 Aug 15  2025 /usr/local/cuda/lib64/libnppif.so.13 -> libnppif.so.13.0.1.2
+-rw-r--r-- 1 root root 60361608 Aug 15  2025 /usr/local/cuda/lib64/libnppif.so.13.0.1.2
+3a20f9e46dcf540e3766fe80caacf23de347365d81b6a596514fc5563f5305ed  /usr/local/cuda/lib64/libnppif.so.13
+3a20f9e46dcf540e3766fe80caacf23de347365d81b6a596514fc5563f5305ed  /usr/local/cuda/lib64/libnppif.so.13.0.1.2
+190cd6a62f3e4e041ec39d9c05fc7cfea823aaaa9dbbdba83743d7ff344b6040  /usr/local/cuda/lib64/libnppc.so.13
+190cd6a62f3e4e041ec39d9c05fc7cfea823aaaa9dbbdba83743d7ff344b6040  /usr/local/cuda/lib64/libnppc.so.13.0.1.2
+== checker
+numpy 2.5.4 scipy 1.18.1

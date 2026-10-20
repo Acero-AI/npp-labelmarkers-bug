@@ -1,0 +1,84 @@
+      x mod 16 of left pixel: [5, 19, 2, 0, 0, 1, 1, 2, 0, 1, 2, 2, 2, 4, 3, 7]; y mod 16: [2, 1, 5, 3, 5, 5, 4, 2, 3, 4, 3, 3, 4, 3, 2, 2]
+      y mod 16 of upper pixel: [9, 2, 3, 2, 3, 4, 1, 1, 2, 4, 2, 2, 3, 3, 2, 2]; x mod 16: [7, 5, 4, 1, 2, 2, 0, 2, 1, 3, 1, 3, 3, 1, 3, 7]
+      x mod 16 of left pixel: [0, 0, 2, 0, 0, 1, 0, 1, 0, 1, 2, 2, 2, 5, 3, 2]; y mod 16: [0, 0, 2, 1, 2, 2, 1, 0, 1, 2, 1, 2, 3, 3, 1, 0]
+      y mod 16 of upper pixel: [1, 2, 1, 2, 1, 3, 1, 1, 1, 3, 2, 2, 3, 1, 1, 0]; x mod 16: [0, 0, 2, 0, 1, 2, 0, 1, 0, 2, 1, 3, 3, 1, 3, 6]
+      x mod 16 of left pixel: [3, 0, 0, 0, 2, 0, 1, 4, 4, 3, 0, 1, 1, 28, 3, 4]; y mod 16: [1, 2, 1, 1, 5, 6, 8, 6, 3, 1, 5, 5, 4, 4, 2, 0]
+      y mod 16 of upper pixel: [1, 2, 3, 2, 4, 5, 4, 3, 4, 3, 4, 4, 1, 1, 2, 0]; x mod 16: [5, 0, 5, 0, 1, 1, 1, 5, 2, 6, 0, 2, 3, 1, 4, 7]
+      x mod 16 of left pixel: [2, 0, 0, 0, 2, 0, 0, 3, 2, 3, 0, 1, 1, 29, 4, 3]; y mod 16: [1, 2, 1, 2, 3, 4, 7, 5, 3, 1, 5, 5, 4, 4, 2, 1]
+      y mod 16 of upper pixel: [1, 2, 3, 3, 2, 4, 4, 3, 4, 3, 4, 4, 1, 1, 1, 0]; x mod 16: [5, 0, 4, 0, 1, 1, 1, 4, 2, 5, 0, 2, 3, 1, 4, 7]
+      y mod 16 of upper pixel: [3, 3, 2, 2, 0, 2, 2, 2, 1, 1, 1, 2, 0, 2, 0, 0]; x mod 16: [5, 1, 2, 0, 1, 1, 0, 0, 0, 1, 0, 1, 2, 1, 3, 5]
+      x mod 16 of left pixel: [24, 14, 19, 2, 1, 2, 1, 1, 2, 2, 2, 1, 16, 1, 2, 18]; y mod 16: [16, 2, 3, 3, 1, 5, 9, 6, 7, 5, 5, 4, 5, 6, 12, 19]
+      y mod 16 of upper pixel: [31, 1, 1, 2, 2, 3, 4, 1, 2, 1, 2, 4, 8, 8, 14, 15]; x mod 16: [21, 23, 7, 2, 2, 2, 4, 4, 4, 5, 6, 3, 2, 2, 4, 8]
+      x mod 16 of left pixel: [19, 3, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 12, 1, 11]; y mod 16: [2, 0, 3, 6, 3, 5, 9, 9, 2, 2, 1, 1, 1, 1, 1, 3]
+      y mod 16 of upper pixel: [7, 1, 2, 4, 1, 3, 5, 0, 1, 1, 0, 1, 0, 0, 2, 1]; x mod 16: [11, 4, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 5]
+      x mod 16 of left pixel: [62, 81, 2, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 12, 2, 27]; y mod 16: [15, 8, 10, 13, 15, 15, 17, 19, 10, 9, 12, 8, 8, 8, 8, 15]
+      y mod 16 of upper pixel: [133, 0, 2, 4, 5, 5, 6, 2, 1, 3, 1, 1, 1, 6, 11, 12]; x mod 16: [41, 25, 10, 10, 10, 9, 9, 8, 9, 8, 8, 8, 8, 8, 9, 13]
+      x mod 16 of left pixel: [18, 10, 19, 1, 1, 1, 0, 0, 0, 0, 1, 1, 2, 6, 0, 18]; y mod 16: [9, 0, 3, 4, 5, 6, 9, 7, 7, 5, 4, 4, 5, 3, 2, 5]
+      y mod 16 of upper pixel: [34, 3, 3, 1, 5, 4, 5, 2, 2, 2, 3, 3, 3, 6, 3, 4]; x mod 16: [22, 13, 9, 3, 3, 3, 2, 3, 2, 2, 3, 3, 3, 4, 3, 5]
+      x mod 16 of left pixel: [13, 6, 10, 3, 1, 0, 0, 0, 0, 0, 1, 1, 0, 5, 1, 14]; y mod 16: [6, 4, 3, 5, 1, 8, 4, 6, 4, 2, 2, 2, 2, 1, 0, 5]
+      y mod 16 of upper pixel: [6, 3, 3, 2, 3, 7, 5, 1, 1, 1, 1, 2, 1, 5, 1, 4]; x mod 16: [14, 7, 6, 4, 1, 1, 0, 0, 0, 0, 1, 1, 1, 2, 2, 6]
+      x mod 16 of left pixel: [32, 17, 49, 36, 0, 0, 1, 0, 0, 1, 2, 0, 0, 6, 11, 23]; y mod 16: [22, 7, 11, 13, 8, 12, 10, 11, 8, 9, 8, 9, 11, 11, 10, 18]
+      y mod 16 of upper pixel: [128, 2, 5, 4, 4, 6, 2, 2, 4, 2, 1, 6, 11, 14, 13, 17]; x mod 16: [44, 22, 22, 15, 11, 11, 11, 10, 10, 10, 8, 7, 7, 8, 6, 19]
+      x mod 16 of left pixel: [43, 33, 5, 3, 3, 4, 5, 2, 5, 2, 0, 2, 0, 4, 13, 28]; y mod 16: [34, 5, 9, 13, 9, 8, 6, 7, 5, 8, 5, 5, 6, 3, 1, 28]
+      y mod 16 of upper pixel: [99, 1, 6, 5, 3, 6, 4, 2, 2, 4, 0, 3, 4, 1, 26, 24]; x mod 16: [32, 22, 10, 11, 9, 11, 10, 10, 11, 9, 9, 8, 7, 5, 10, 16]
+      x mod 16 of left pixel: [23, 14, 6, 12, 1, 3, 0, 0, 2, 2, 2, 1, 16, 1, 2, 19]; y mod 16: [16, 2, 4, 2, 2, 5, 6, 5, 6, 4, 4, 4, 6, 7, 14, 17]
+      y mod 16 of upper pixel: [28, 2, 2, 1, 2, 4, 1, 0, 1, 2, 3, 3, 13, 10, 13, 14]; x mod 16: [22, 23, 6, 5, 2, 4, 4, 3, 3, 4, 5, 2, 2, 2, 4, 8]
+      x mod 16 of left pixel: [25, 20, 2, 0, 0, 1, 1, 1, 1, 1, 2, 3, 2, 2, 3, 18]; y mod 16: [6, 2, 6, 5, 5, 5, 7, 4, 3, 4, 4, 9, 8, 3, 4, 7]
+      y mod 16 of upper pixel: [17, 1, 2, 3, 3, 3, 2, 1, 2, 3, 5, 5, 5, 4, 8, 5]; x mod 16: [20, 7, 4, 2, 4, 3, 2, 3, 3, 3, 1, 3, 4, 2, 2, 6]
+
+nvidia-committed-12.0.0/teapot/LabelMarkersUF : no pieces
+sample-12.4.1-4060/teapot/LabelMarkersUF : no pieces
+nvidia-committed-12.0.0/teapot/LabelMarkersUFBatch : no pieces
+sample-12.4.1-4060/teapot/LabelMarkersUFBatch : no pieces
+nvidia-committed-12.0.0/CT_skull/LabelMarkersUF: 8 pieces cut off 5 regions; size median 7, max 31; inside one tile16: 6/8, inside one col16: 6/8, inside one row16: 7/8, inside one tile32: 7/8, inside one col32: 7/8, inside one row32: 8/8, inside one tile64: 7/8, inside one col64: 7/8, inside one row64: 8/8
+   top row of piece mod 16: [0, 0, 2, 1, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]; left column mod 16: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 0, 2, 2]
+sample-12.4.1-4060/CT_skull/LabelMarkersUF: 31 pieces cut off 9 regions; size median 11, max 739; inside one tile16: 19/31, inside one col16: 19/31, inside one row16: 25/31, inside one tile32: 22/31, inside one col32: 23/31, inside one row32: 27/31, inside one tile64: 25/31, inside one col64: 25/31, inside one row64: 30/31
+   top row of piece mod 16: [2, 0, 4, 3, 2, 3, 1, 5, 2, 3, 2, 0, 1, 0, 1, 2]; left column mod 16: [1, 0, 3, 0, 1, 3, 0, 3, 1, 2, 0, 5, 4, 1, 3, 4]
+nppplus-0.10-4060/CT_skull/LabelMarkersUF: 28 pieces cut off 9 regions; size median 8, max 739; inside one tile16: 19/28, inside one col16: 19/28, inside one row16: 24/28, inside one tile32: 22/28, inside one col32: 23/28, inside one row32: 25/28, inside one tile64: 24/28, inside one col64: 24/28, inside one row64: 27/28
+   top row of piece mod 16: [2, 0, 4, 2, 2, 4, 0, 3, 2, 3, 2, 0, 1, 0, 1, 2]; left column mod 16: [0, 0, 2, 0, 1, 3, 0, 2, 0, 2, 0, 6, 4, 1, 3, 4]
+nvidia-committed-12.0.0/CT_skull/LabelMarkersUFBatch: 8 pieces cut off 4 regions; size median 12, max 213; inside one tile16: 5/8, inside one col16: 5/8, inside one row16: 7/8, inside one tile32: 6/8, inside one col32: 6/8, inside one row32: 8/8, inside one tile64: 7/8, inside one col64: 7/8, inside one row64: 8/8
+   top row of piece mod 16: [0, 0, 2, 0, 1, 1, 0, 3, 0, 0, 0, 0, 1, 0, 0, 0]; left column mod 16: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 2, 1, 0]
+sample-12.4.1-4060/CT_skull/LabelMarkersUFBatch: 7 pieces cut off 4 regions; size median 12, max 31; inside one tile16: 5/7, inside one col16: 5/7, inside one row16: 7/7, inside one tile32: 6/7, inside one col32: 6/7, inside one row32: 7/7, inside one tile64: 6/7, inside one col64: 6/7, inside one row64: 7/7
+   top row of piece mod 16: [0, 0, 2, 0, 1, 1, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0]; left column mod 16: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 2, 1, 0]
+nppplus-0.10-4060/CT_skull/LabelMarkersUFBatch: 8 pieces cut off 4 regions; size median 12, max 213; inside one tile16: 5/8, inside one col16: 5/8, inside one row16: 7/8, inside one tile32: 6/8, inside one col32: 6/8, inside one row32: 8/8, inside one tile64: 7/8, inside one col64: 7/8, inside one row64: 8/8
+   top row of piece mod 16: [0, 0, 1, 0, 1, 1, 0, 3, 1, 0, 0, 0, 1, 0, 0, 0]; left column mod 16: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 2, 1, 0]
+nvidia-committed-12.0.0/PCB_METAL/LabelMarkersUF : no pieces
+sample-12.4.1-4060/PCB_METAL/LabelMarkersUF : no pieces
+nppplus-0.10-4060/PCB_METAL/LabelMarkersUF: 1 pieces cut off 1 regions; size median 710, max 710; inside one tile16: 0/1, inside one col16: 0/1, inside one row16: 0/1, inside one tile32: 0/1, inside one col32: 0/1, inside one row32: 0/1, inside one tile64: 0/1, inside one col64: 0/1, inside one row64: 0/1
+   top row of piece mod 16: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]; left column mod 16: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+nvidia-committed-12.0.0/PCB_METAL/LabelMarkersUFBatch : no pieces
+sample-12.4.1-4060/PCB_METAL/LabelMarkersUFBatch : no pieces
+nppplus-0.10-4060/PCB_METAL/LabelMarkersUFBatch: 1 pieces cut off 1 regions; size median 272, max 272; inside one tile16: 0/1, inside one col16: 0/1, inside one row16: 0/1, inside one tile32: 0/1, inside one col32: 0/1, inside one row32: 0/1, inside one tile64: 0/1, inside one col64: 0/1, inside one row64: 0/1
+   top row of piece mod 16: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]; left column mod 16: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+nvidia-committed-12.0.0/PCB2/LabelMarkersUF: 23 pieces cut off 21 regions; size median 17, max 294; inside one tile16: 9/23, inside one col16: 14/23, inside one row16: 13/23, inside one tile32: 12/23, inside one col32: 16/23, inside one row32: 18/23, inside one tile64: 15/23, inside one col64: 18/23, inside one row64: 19/23
+   top row of piece mod 16: [0, 1, 5, 2, 2, 1, 0, 1, 3, 1, 1, 1, 2, 2, 1, 0]; left column mod 16: [1, 2, 2, 0, 1, 1, 1, 0, 0, 1, 0, 2, 5, 5, 2, 0]
+sample-12.4.1-4060/PCB2/LabelMarkersUF: 71 pieces cut off 54 regions; size median 5, max 296; inside one tile16: 44/71, inside one col16: 52/71, inside one row16: 54/71, inside one tile32: 56/71, inside one col32: 60/71, inside one row32: 65/71, inside one tile64: 60/71, inside one col64: 64/71, inside one row64: 66/71
+   top row of piece mod 16: [1, 3, 9, 7, 4, 6, 4, 4, 7, 5, 6, 4, 6, 3, 0, 2]; left column mod 16: [4, 4, 3, 0, 3, 1, 1, 8, 1, 6, 3, 5, 10, 4, 13, 5]
+nppplus-0.10-4060/PCB2/LabelMarkersUF: 70 pieces cut off 53 regions; size median 4, max 296; inside one tile16: 42/70, inside one col16: 51/70, inside one row16: 52/70, inside one tile32: 56/70, inside one col32: 60/70, inside one row32: 64/70, inside one tile64: 60/70, inside one col64: 64/70, inside one row64: 65/70
+   top row of piece mod 16: [1, 4, 8, 7, 4, 6, 4, 3, 7, 5, 5, 4, 6, 3, 1, 2]; left column mod 16: [3, 3, 3, 1, 3, 1, 1, 7, 1, 5, 3, 5, 11, 4, 13, 6]
+nvidia-committed-12.0.0/PCB2/LabelMarkersUFBatch: 21 pieces cut off 20 regions; size median 18, max 172; inside one tile16: 7/21, inside one col16: 13/21, inside one row16: 10/21, inside one tile32: 12/21, inside one col32: 15/21, inside one row32: 16/21, inside one tile64: 15/21, inside one col64: 18/21, inside one row64: 17/21
+   top row of piece mod 16: [0, 1, 3, 2, 1, 2, 0, 0, 1, 2, 2, 1, 2, 3, 0, 1]; left column mod 16: [1, 1, 2, 0, 1, 0, 0, 2, 0, 0, 0, 2, 4, 3, 3, 2]
+sample-12.4.1-4060/PCB2/LabelMarkersUFBatch: 22 pieces cut off 20 regions; size median 16, max 172; inside one tile16: 9/22, inside one col16: 14/22, inside one row16: 12/22, inside one tile32: 13/22, inside one col32: 16/22, inside one row32: 17/22, inside one tile64: 16/22, inside one col64: 19/22, inside one row64: 18/22
+   top row of piece mod 16: [0, 1, 3, 2, 2, 2, 0, 0, 1, 2, 2, 2, 1, 3, 0, 1]; left column mod 16: [1, 1, 2, 0, 2, 0, 0, 2, 0, 0, 0, 2, 4, 3, 3, 2]
+nppplus-0.10-4060/PCB2/LabelMarkersUFBatch: 20 pieces cut off 19 regions; size median 16, max 172; inside one tile16: 7/20, inside one col16: 13/20, inside one row16: 10/20, inside one tile32: 12/20, inside one col32: 15/20, inside one row32: 15/20, inside one tile64: 14/20, inside one col64: 17/20, inside one row64: 16/20
+   top row of piece mod 16: [0, 1, 3, 2, 2, 2, 0, 0, 1, 2, 1, 1, 1, 3, 0, 1]; left column mod 16: [1, 1, 2, 0, 2, 0, 0, 2, 0, 0, 0, 2, 4, 2, 3, 1]
+nvidia-committed-12.0.0/PCB/LabelMarkersUF: 21 pieces cut off 13 regions; size median 43, max 11689; inside one tile16: 9/21, inside one col16: 10/21, inside one row16: 13/21, inside one tile32: 11/21, inside one col32: 11/21, inside one row32: 15/21, inside one tile64: 11/21, inside one col64: 11/21, inside one row64: 16/21
+   top row of piece mod 16: [6, 0, 1, 1, 1, 5, 2, 1, 0, 0, 0, 0, 0, 2, 1, 1]; left column mod 16: [5, 1, 1, 0, 0, 0, 0, 1, 2, 0, 1, 1, 2, 1, 2, 4]
+sample-12.4.1-4060/PCB/LabelMarkersUF: 25 pieces cut off 17 regions; size median 9, max 11897; inside one tile16: 13/25, inside one col16: 14/25, inside one row16: 17/25, inside one tile32: 16/25, inside one col32: 16/25, inside one row32: 19/25, inside one tile64: 16/25, inside one col64: 16/25, inside one row64: 20/25
+   top row of piece mod 16: [5, 0, 1, 1, 1, 7, 2, 2, 0, 2, 0, 0, 0, 2, 0, 2]; left column mod 16: [5, 0, 1, 0, 1, 0, 0, 1, 2, 0, 3, 1, 2, 0, 4, 5]
+nppplus-0.10-4060/PCB/LabelMarkersUF: 32 pieces cut off 17 regions; size median 52, max 11897; inside one tile16: 13/32, inside one col16: 14/32, inside one row16: 17/32, inside one tile32: 16/32, inside one col32: 18/32, inside one row32: 20/32, inside one tile64: 19/32, inside one col64: 21/32, inside one row64: 22/32
+   top row of piece mod 16: [6, 0, 1, 1, 1, 7, 3, 2, 1, 2, 3, 0, 0, 2, 1, 2]; left column mod 16: [6, 0, 1, 2, 1, 1, 0, 1, 3, 0, 3, 1, 3, 0, 4, 6]
+nvidia-committed-12.0.0/PCB/LabelMarkersUFBatch: 26 pieces cut off 14 regions; size median 62, max 11689; inside one tile16: 10/26, inside one col16: 12/26, inside one row16: 13/26, inside one tile32: 13/26, inside one col32: 14/26, inside one row32: 15/26, inside one tile64: 17/26, inside one col64: 18/26, inside one row64: 21/26
+   top row of piece mod 16: [8, 1, 1, 0, 1, 4, 3, 1, 1, 0, 0, 1, 0, 1, 2, 2]; left column mod 16: [4, 2, 1, 2, 1, 0, 0, 1, 2, 1, 3, 1, 2, 1, 1, 4]
+sample-12.4.1-4060/PCB/LabelMarkersUFBatch: 20 pieces cut off 14 regions; size median 11, max 11523; inside one tile16: 9/20, inside one col16: 11/20, inside one row16: 12/20, inside one tile32: 12/20, inside one col32: 12/20, inside one row32: 14/20, inside one tile64: 12/20, inside one col64: 13/20, inside one row64: 15/20
+   top row of piece mod 16: [5, 1, 0, 0, 1, 4, 1, 1, 0, 0, 0, 1, 0, 2, 1, 3]; left column mod 16: [4, 0, 0, 2, 0, 0, 1, 0, 1, 1, 3, 0, 2, 1, 0, 5]
+nppplus-0.10-4060/PCB/LabelMarkersUFBatch: 18 pieces cut off 12 regions; size median 14, max 10893; inside one tile16: 7/18, inside one col16: 9/18, inside one row16: 10/18, inside one tile32: 10/18, inside one col32: 10/18, inside one row32: 13/18, inside one tile64: 12/18, inside one col64: 13/18, inside one row64: 14/18
+   top row of piece mod 16: [6, 0, 1, 0, 0, 4, 1, 1, 0, 0, 0, 1, 0, 1, 0, 3]; left column mod 16: [3, 0, 1, 1, 0, 0, 0, 1, 2, 1, 3, 0, 2, 1, 0, 3]
+harness-npp13-3070/pcb_nvidia_sample: 43 pieces cut off 15 regions; size median 130, max 64630; inside one tile16: 13/43, inside one col16: 16/43, inside one row16: 15/43, inside one tile32: 18/43, inside one col32: 20/43, inside one row32: 20/43, inside one tile64: 22/43, inside one col64: 26/43, inside one row64: 24/43
+   top row of piece mod 16: [14, 0, 1, 3, 2, 4, 1, 1, 1, 1, 2, 5, 2, 2, 2, 2]; left column mod 16: [5, 1, 2, 4, 3, 1, 2, 1, 3, 0, 2, 3, 2, 1, 5, 8]
+harness-npp11-3070/pcb_nvidia_sample: 20 pieces cut off 13 regions; size median 14, max 11594; inside one tile16: 9/20, inside one col16: 10/20, inside one row16: 14/20, inside one tile32: 13/20, inside one col32: 13/20, inside one row32: 15/20, inside one tile64: 13/20, inside one col64: 13/20, inside one row64: 16/20
+   top row of piece mod 16: [6, 0, 1, 1, 1, 5, 1, 1, 0, 0, 0, 0, 0, 2, 1, 1]; left column mod 16: [3, 1, 1, 0, 0, 0, 0, 1, 2, 0, 1, 1, 3, 1, 2, 4]
+harness-npp13-3070/ct_skull_nvidia_sample: 30 pieces cut off 6 regions; size median 12, max 32779; inside one tile16: 17/30, inside one col16: 17/30, inside one row16: 25/30, inside one tile32: 21/30, inside one col32: 22/30, inside one row32: 27/30, inside one tile64: 25/30, inside one col64: 25/30, inside one row64: 28/30
+   top row of piece mod 16: [2, 0, 4, 1, 1, 4, 1, 8, 1, 2, 1, 2, 0, 2, 0, 1]; left column mod 16: [1, 0, 3, 1, 1, 5, 0, 3, 1, 2, 0, 5, 4, 0, 2, 2]
+harness-npp11-3070/ct_skull_nvidia_sample: 8 pieces cut off 5 regions; size median 9, max 31; inside one tile16: 6/8, inside one col16: 6/8, inside one row16: 7/8, inside one tile32: 7/8, inside one col32: 7/8, inside one row32: 8/8, inside one tile64: 7/8, inside one col64: 7/8, inside one row64: 8/8
+   top row of piece mod 16: [0, 0, 1, 1, 2, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]; left column mod 16: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 0, 1, 2]

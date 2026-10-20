@@ -1,0 +1,160 @@
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2
+NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 2
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 5: WRONG
+exit 2

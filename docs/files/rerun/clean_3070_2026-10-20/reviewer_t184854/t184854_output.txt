@@ -1,0 +1,18 @@
+== t_11
+NPP 11.8.0
+conn4 raw truth 2 labels 2 splits 0 merges 0 ok
+conn4 compressed truth 2 labels 2 splits 0 merges 0 ok
+conn8 raw truth 2 labels 2 splits 0 merges 0 ok
+conn8 compressed truth 2 labels 2 splits 0 merges 0 ok
+== t_12
+NPP 12.4.1
+conn4 raw truth 2 labels 2 splits 0 merges 0 ok
+conn4 compressed truth 2 labels 2 splits 0 merges 0 ok
+conn8 raw truth 2 labels 2 splits 0 merges 0 ok
+conn8 compressed truth 2 labels 2 splits 0 merges 0 ok
+== t_13
+NPP 13.2.0
+conn4 raw truth 2 labels 2 splits 0 merges 0 ok
+conn4 compressed truth 2 labels 2 splits 0 merges 0 ok
+conn8 raw truth 2 labels 2 splits 0 merges 0 ok
+conn8 compressed truth 2 labels 2 splits 0 merges 0 ok

@@ -1,0 +1,6 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA A100-SXM4-40GB (sm_80), runtime 12080, driver 12080
+
+NPP status -1000

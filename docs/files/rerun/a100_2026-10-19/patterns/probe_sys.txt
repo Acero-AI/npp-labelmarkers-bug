@@ -1,0 +1,73 @@
+loaded /usr/local/cuda/lib64/libnppc.so.12
+loaded /usr/local/cuda/lib64/libnppif.so.12
+NPP 12.3.3
+GPU NVIDIA A100-SXM4-40GB (sm_80)
+
+T1. same input, 50 runs each (8u, 8 neighbours)
+  random, 2 values                      8x8   : wrong   0/50, distinct answers   1, labels 3-3 (truth 3)
+  random, 2 values                     12x12  : wrong   0/50, distinct answers   1, labels 9-9 (truth 9)
+  random, 2 values                     16x16  : wrong  50/50, distinct answers   1, labels 11-11 (truth 10)
+  random, 2 values                     17x17  : wrong  50/50, distinct answers   1, labels 13-13 (truth 11)
+  random, 2 values                     20x20  : wrong  50/50, distinct answers   1, labels 13-13 (truth 10)
+  random, 2 values                     24x24  : wrong  50/50, distinct answers   1, labels 16-16 (truth 12)
+  random, 2 values                     32x32  : wrong  50/50, distinct answers   1, labels 26-26 (truth 19)
+  random, 2 values                     48x48  : wrong  50/50, distinct answers   3, labels 31-32 (truth 23)
+  random, 2 values                     64x64  : wrong  50/50, distinct answers   2, labels 71-72 (truth 56)
+  random, 2 values                     96x96  : wrong  50/50, distinct answers   2, labels 113-114 (truth 87)
+  random, 2 values                    128x128 : wrong  50/50, distinct answers  18, labels 178-180 (truth 120)
+  random, 2 values                    256x256 : wrong  50/50, distinct answers  50, labels 674-686 (truth 489)
+  random, 2 values                    512x512 : wrong  50/50, distinct answers  50, labels 2540-2559 (truth 1824)
+  random, 2 values                   1024x1024: wrong  50/50, distinct answers  50, labels 9901-9947 (truth 7164)
+  3x3 pattern in every 16x16 tile      16x16  : wrong  50/50, distinct answers   1, labels 6-6 (truth 5)
+  3x3 pattern in every 16x16 tile      32x32  : wrong  50/50, distinct answers   1, labels 21-21 (truth 17)
+  3x3 pattern in every 16x16 tile      48x48  : wrong  50/50, distinct answers   1, labels 46-46 (truth 37)
+  3x3 pattern in every 16x16 tile      64x64  : wrong  50/50, distinct answers   1, labels 81-81 (truth 65)
+  3x3 pattern in every 16x16 tile     128x128 : wrong  50/50, distinct answers   1, labels 321-321 (truth 257)
+  3x3 pattern in every 16x16 tile     256x256 : wrong  50/50, distinct answers   1, labels 1281-1281 (truth 1025)
+  3x3 pattern in every 16x16 tile     512x512 : wrong  50/50, distinct answers   1, labels 5121-5121 (truth 4097)
+  3x3 pattern in every 16x16 tile    1024x1024: wrong  50/50, distinct answers  39, labels 20475-20481 (truth 16385)
+
+T2. the 3 x 3 image alone, 200 runs
+  3x3, 8u                               3x3   : wrong 200/200, distinct answers   1, labels 5-5 (truth 4)
+
+T3. the 3 x 3 with other values: (region of five, column, corners)
+  five=0 column=2 corners=1             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=0 column=1 corners=2             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=1 column=0 corners=2             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=1 column=2 corners=0             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=2 column=0 corners=1             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=2 column=1 corners=0             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=5 column=9 corners=7             3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=255 column=0 corners=128         3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=200 column=100 corners=50        3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  five=7 column=7 corners=3             3x3   : wrong   0/20, distinct answers   1, labels 3-3 (truth 3)
+  five=7 column=3 corners=3             3x3   : wrong  20/20, distinct answers   1, labels 3-3 (truth 2)
+  five=0 column=1 corners=1             3x3   : wrong  20/20, distinct answers   1, labels 3-3 (truth 2)
+  32u five=0 column=2 corners=1         3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  32u five=70000 column=70002 corners=70001    3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+  32u five=4000000000 column=1 corners=2    3x3   : wrong  20/20, distinct answers   1, labels 5-5 (truth 4)
+
+T4. the 3 x 3 at (2,2) on background 9, by image size: '#' = wrong (1 run each)
+     width 3..80 ->
+  H= 3                                                                               
+  H= 4                                                                               
+  H= 5   ############################################################################
+  H= 6   ############################################################################
+  H= 8   ############################################################################
+  H=16   ############################################################################
+  H=17   ############################################################################
+  H=32   ############################################################################
+  H=40   ############################################################################
+
+T5. batch API (8u32u_Advanced, one image), same images as T1, 20 runs
+  batch, random 2 values                8x8   : wrong   0/20, distinct answers   1, labels 3-3 (truth 3)
+  batch, random 2 values               16x16  : wrong   0/20, distinct answers   1, labels 11-11 (truth 11)
+  batch, random 2 values               32x32  : wrong  20/20, distinct answers   1, labels 18-18 (truth 17)
+  batch, random 2 values               64x64  : wrong  20/20, distinct answers   1, labels 46-46 (truth 42)
+  batch, random 2 values              128x128 : wrong  20/20, distinct answers   5, labels 160-162 (truth 143)
+  batch, random 2 values              256x256 : wrong  20/20, distinct answers  14, labels 519-523 (truth 476)
+  batch, random 2 values              512x512 : wrong  20/20, distinct answers  20, labels 1981-1992 (truth 1847)
+  batch, 3x3 in every tile             16x16  : wrong   0/20, distinct answers   1, labels 5-5 (truth 5)
+  batch, 3x3 in every tile             64x64  : wrong   0/20, distinct answers   1, labels 65-65 (truth 65)
+  batch, 3x3 in every tile            256x256 : wrong   0/20, distinct answers   1, labels 1025-1025 (truth 1025)
+  batch, 3x3 alone                      3x3   : wrong   0/20, distinct answers   1, labels 4-4 (truth 4)

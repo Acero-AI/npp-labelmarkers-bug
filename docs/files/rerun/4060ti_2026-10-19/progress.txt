@@ -1,0 +1,11 @@
+[2026-10-19T04:10:22Z] 0 machine
+[2026-10-19T04:10:23Z] 1 NPP, pinned
+[2026-10-19T04:11:31Z] 2 npp_min, the 3 x 3 repro, 20 runs per version
+[2026-10-19T04:11:36Z]    sys: 20 of 20 WRONG; NPP 13.0.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+[2026-10-19T04:11:44Z]    13: 20 of 20 WRONG; NPP 13.2.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+[2026-10-19T04:11:50Z]    12: 20 of 20 WRONG; NPP 12.4.1, NVIDIA GeForce RTX 4060 Ti (sm_89)
+[2026-10-19T04:11:55Z]    11: 0 of 20 WRONG; NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+[2026-10-19T04:11:55Z] 3 harness, sections A-F and NVIDIA's images, every version
+[2026-10-19T04:14:13Z] 4 NVIDIA's sample (cuda-samples v12.5, unmodified) against NPP 12.4.1; 10 runs, run 1's files kept
+[2026-10-19T04:14:30Z] 5 our labeller, same GPU, 50 runs per image
+[2026-10-19T04:15:21Z] 6 done

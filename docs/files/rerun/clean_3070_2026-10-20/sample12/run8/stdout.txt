@@ -1,0 +1,21 @@
+NPP Library Version 12.4.1
+CUDA Driver  Version: 13.0
+CUDA Runtime Version: 12.9
+
+Input file load succeeded.
+teapot_CompressedMarkerLabelsUF_8Way_512x512_32u succeeded, compressed label count is 155343.
+Input file load succeeded.
+CT_Skull_CompressedMarkerLabelsUF_8Way_512x512_32u succeeded, compressed label count is 434.
+Input file load succeeded.
+PCB_METAL_CompressedMarkerLabelsUF_8Way_509x335_32u succeeded, compressed label count is 3733.
+Input file load succeeded.
+PCB2_CompressedMarkerLabelsUF_8Way_1024x683_32u succeeded, compressed label count is 1273.
+Input file load succeeded.
+PCB_CompressedMarkerLabelsUF_8Way_1280x720_32u succeeded, compressed label count is 1469.
+
+
+teapot_CompressedMarkerLabelsUFBatch_8Way_512x512_32u succeeded, compressed label count is 155342.
+CT_Skull_CompressedMarkerLabelsUFBatch_8Way_512x512_32u succeeded, compressed label count is 414.
+PCB_METAL_CompressedMarkerLabelsUFBatch_8Way_509x335_32u succeeded, compressed label count is 3732.
+PCB2_CompressedMarkerLabelsUFBatch_8Way_1024x683_32u succeeded, compressed label count is 1222.
+PCB_CompressedMarkerLabelsUFBatch_8Way_1280x720_32u succeeded, compressed label count is 1456.

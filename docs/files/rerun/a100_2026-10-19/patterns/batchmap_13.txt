@@ -1,0 +1,7 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA A100-SXM4-40GB (sm_80)
+
+T6. single 8u32u: the 3 x 3 at every offset (x0, y0) of a 70 x 70 image of 9s, '#' = wrong; then a V with arms 1..6 tall
+   0 NPP status -1000

@@ -1,0 +1,160 @@
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0
+NPP 11.8.0, NVIDIA GeForce RTX 4060 Ti (sm_89)
+
+   0 2 0    |   0 1 0
+   0 2 0    |   0 1 0
+   1 0 1    |   6 0 8
+
+expected 4 regions, NPP gave 4: correct
+exit 0

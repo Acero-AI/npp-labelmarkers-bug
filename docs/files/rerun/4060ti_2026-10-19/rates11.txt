@@ -1,0 +1,52 @@
+loaded npp11/nvidia/npp/lib/libnppc.so.11
+loaded npp11/nvidia/npp/lib/libnppif.so.11
+NPP 11.8.0
+GPU NVIDIA GeForce RTX 4060 Ti (sm_89), runtime 13000, driver 13000
+
+V  (8 neighbours) width  32, at column  1: wrong   0/200
+V  (8 neighbours) width  32, at column  5: wrong   0/200
+V  (8 neighbours) width  32, at column 13: wrong   0/200
+V  (8 neighbours) width  32, at column 16: wrong   0/200
+V  (8 neighbours) width  32, at column 29: wrong   0/200
+V  (8 neighbours) width  64, at column  1: wrong   0/200
+V  (8 neighbours) width  64, at column  5: wrong   0/200
+V  (8 neighbours) width  64, at column 13: wrong   0/200
+V  (8 neighbours) width  64, at column 16: wrong   0/200
+V  (8 neighbours) width  64, at column 29: wrong   0/200
+V  (8 neighbours) width 100, at column  1: wrong   0/200
+V  (8 neighbours) width 100, at column  5: wrong   0/200
+V  (8 neighbours) width 100, at column 13: wrong   0/200
+V  (8 neighbours) width 100, at column 16: wrong   0/200
+V  (8 neighbours) width 100, at column 29: wrong   0/200
+U  (4 neighbours) width  32, at column  1: wrong   0/200
+U  (4 neighbours) width  32, at column  5: wrong   0/200
+U  (4 neighbours) width  32, at column 13: wrong   0/200
+U  (4 neighbours) width  32, at column 16: wrong   0/200
+U  (4 neighbours) width  64, at column  1: wrong   0/200
+U  (4 neighbours) width  64, at column  5: wrong   0/200
+U  (4 neighbours) width  64, at column 13: wrong   0/200
+U  (4 neighbours) width  64, at column 16: wrong   0/200
+U  (4 neighbours) width  64, at column 29: wrong   0/200
+U  (4 neighbours) width 100, at column  1: wrong   0/200
+U  (4 neighbours) width 100, at column  5: wrong   0/200
+U  (4 neighbours) width 100, at column 13: wrong   0/200
+U  (4 neighbours) width 100, at column 16: wrong   0/200
+U  (4 neighbours) width 100, at column 29: wrong   0/200
+wrap pair, width   8, 8 neighbours: wrong 50/50
+wrap pair, width   8, 4 neighbours: wrong 50/50
+wrap pair, width  16, 8 neighbours: wrong 50/50
+wrap pair, width  16, 4 neighbours: wrong 50/50
+wrap pair, width  24, 8 neighbours: wrong 50/50
+wrap pair, width  24, 4 neighbours: wrong 50/50
+wrap pair, width  31, 8 neighbours: wrong 50/50
+wrap pair, width  31, 4 neighbours: wrong 50/50
+wrap pair, width  32, 8 neighbours: wrong 50/50
+wrap pair, width  32, 4 neighbours: wrong 50/50
+wrap pair, width  33, 8 neighbours: wrong 50/50
+wrap pair, width  33, 4 neighbours: wrong 50/50
+wrap pair, width  64, 8 neighbours: wrong 50/50
+wrap pair, width  64, 4 neighbours: wrong 50/50
+wrap pair, width 100, 8 neighbours: wrong 50/50
+wrap pair, width 100, 4 neighbours: wrong 50/50
+wrap pair, width 128, 8 neighbours: wrong 50/50
+wrap pair, width 128, 4 neighbours: wrong 50/50

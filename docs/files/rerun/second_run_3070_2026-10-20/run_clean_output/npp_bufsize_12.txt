@@ -1,0 +1,5 @@
+NPP 12.4.1
+  8400 x   6000 (  50 megapixels): LabelMarkersUF buffer     201600008 bytes (status 0), CompressMarkerLabels buffer     403265556 bytes (status 0)
+ 16800 x  12000 ( 202 megapixels): LabelMarkersUF buffer     806400008 bytes (status 0), CompressMarkerLabels buffer    1613062164 bytes (status 0)
+ 25200 x  18000 ( 454 megapixels): LabelMarkersUF buffer    1814400008 bytes (status 0), CompressMarkerLabels buffer    -665708524 bytes (status 0)
+ 33600 x  24000 ( 806 megapixels): LabelMarkersUF buffer   -1069367288 bytes (status 0), CompressMarkerLabels buffer   -2137882604 bytes (status 0)

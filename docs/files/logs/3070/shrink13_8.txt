@@ -1,0 +1,17 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA GeForce RTX 3070 (sm_86), runtime 13020, driver 13020
+
+8 neighbours, attempt 0: 5 pixels kept, at rows 21-23, cols 21-23:
+      0 . 0 
+      0 . 0 
+      . 0 . 
+8 neighbours, attempt 1: 5 pixels kept, at rows 20-22, cols 19-23:
+      1 . . . 1 
+      . 1 . 1 . 
+      . . 1 . . 
+8 neighbours, attempt 2: 5 pixels kept, at rows 21-23, cols 16-19:
+      0 . . 0 
+      0 . 0 . 
+      . 0 . . 

@@ -1,0 +1,7 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA A100-SXM4-40GB (sm_80)
+
+T1. same input, 50 runs each (8u, 8 neighbours)
+NPP status -1000

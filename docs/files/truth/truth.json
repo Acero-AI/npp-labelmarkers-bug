@@ -1,0 +1,628 @@
+{
+ "cc3d": "connected-components-3d 4.1.0",
+ "torch": "2.14.1",
+ "device": "Apple M5 Pro (Metal)",
+ "images": {
+  "V_8way": {
+   "W": 7,
+   "H": 7,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_4way": {
+   "W": 8,
+   "H": 7,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "wrap": {
+   "W": 8,
+   "H": 6,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 3,
+   "ours": 3,
+   "identical": true
+  },
+  "pcb_nvidia_sample": {
+   "W": 1280,
+   "H": 720,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 1436,
+   "ours": 1436,
+   "identical": true
+  },
+  "ct_skull_nvidia_sample": {
+   "W": 512,
+   "H": 512,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 407,
+   "ours": 407,
+   "identical": true
+  },
+  "V_short": {
+   "W": 6,
+   "H": 5,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_right_arm_5": {
+   "W": 6,
+   "H": 8,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_left_arm_5": {
+   "W": 6,
+   "H": 8,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_right_arm_wide": {
+   "W": 8,
+   "H": 6,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_right_arm_branch": {
+   "W": 8,
+   "H": 6,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_three_arms": {
+   "W": 9,
+   "H": 6,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_short": {
+   "W": 7,
+   "H": 5,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_right_arm_tall": {
+   "W": 7,
+   "H": 7,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_right_arm_wide": {
+   "W": 8,
+   "H": 5,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l1_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l1_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l1_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l1_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l1_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l2_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l2_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l2_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l2_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l2_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l3_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l3_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l3_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l3_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l3_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l4_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l4_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l4_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l4_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l4_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l5_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l5_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l5_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l5_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "V_l5_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l1_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l1_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l1_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l1_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l1_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l2_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l2_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l2_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l2_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l2_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l3_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l3_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l3_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l3_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l3_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l4_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l4_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l4_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l4_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l4_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l5_r1": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l5_r2": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l5_r3": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l5_r4": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "U_l5_r5": {
+   "W": 8,
+   "H": 9,
+   "conn": 4,
+   "values": 2,
+   "cc3d": 2,
+   "ours": 2,
+   "identical": true
+  },
+  "CT_skull": {
+   "W": 512,
+   "H": 512,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 407,
+   "ours": 407,
+   "identical": true
+  },
+  "PCB2": {
+   "W": 1024,
+   "H": 683,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 1202,
+   "ours": 1202,
+   "identical": true
+  },
+  "PCB": {
+   "W": 1280,
+   "H": 720,
+   "conn": 8,
+   "values": 2,
+   "cc3d": 1436,
+   "ours": 1436,
+   "identical": true
+  },
+  "PCB_METAL": {
+   "W": 509,
+   "H": 335,
+   "conn": 8,
+   "values": 11,
+   "cc3d": 3732,
+   "ours": 3732,
+   "identical": true
+  },
+  "teapot": {
+   "W": 512,
+   "H": 512,
+   "conn": 8,
+   "values": 254,
+   "cc3d": 155343,
+   "ours": 155343,
+   "identical": true
+  }
+ }
+}

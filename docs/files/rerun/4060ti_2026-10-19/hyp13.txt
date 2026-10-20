@@ -1,0 +1,16 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA GeForce RTX 4060 Ti (sm_89), runtime 13000, driver 13000
+
+  as before (baseline)                         3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  scratch buffer x4                            3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  scratch buffer x16                           3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  stream context all zero but stream           3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  stream context from nppGetStreamContext      3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  row steps in elements, not bytes             3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  source rows padded (cudaMallocPitch)         3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  after nppiCompressMarkerLabelsUF             3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  values mapped to 0/255 (8u input)            3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  NPP 8-way on 3x3 gives 5 labels; 8-way truth 4 (mismatch), 4-way truth 6 (mismatch)
+  NPP 4-way on 3x3 gives 6 labels; 8-way truth 4 (mismatch), 4-way truth 6 (match)

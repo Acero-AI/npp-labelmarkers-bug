@@ -1,0 +1,47 @@
+NVIDIA's sample batchedLabelMarkersAndLabelCompressionNPP (cuda-samples tag v12.5, source unmodified),
+built against NPP 12.4.1 from pip (nvidia-npp-cu12) and run on the RTX 4060 Ti host, 2026-10-18T09:04 UTC.
+
+The first attempt (sample_build.txt, sample_run.txt) built against the system CUDA 13.0 and failed to compile:
+CUDA 13 removed nppiCompressMarkerLabelsUF_32u_C1IR, which the sample calls. This is the second attempt.
+
+Recovered from our session record; the 20 label files it wrote were judged on that machine with
+`npp_debug LIB --check` (nvidia_sample_output_checked.txt) and not copied back.
+
+$ cd /root/hyp/run && N=$(ls -d /root/npp/npp12/nvidia/npp); R=$(dirname $(find /root/npp/npp12 -name "libcudart.so*" | head -1)); ls $N/lib | head; nvcc -O2 -I$N/include -I../sample/Common ../sample/batchedLabelMarkersAndLabelCompressionNPP.cpp -L$N/lib -l:libnppif.so.12 -l:libnppc.so.12 -l:libnppisu.so.12 -Xlinker -rpath=$N/lib -o sample12 2>&1 | grep -E "error" | head -5; ls -la sample12 && LD_LIBRARY_PATH=$N/lib:$R ./sample12 2>&1 | tail -5; ls *_8Way_* | head -30
+
+libnppc.so.12
+libnppial.so.12
+libnppicc.so.12
+libnppidei.so.12
+libnppif.so.12
+libnppig.so.12
+libnppim.so.12
+libnppist.so.12
+libnppisu.so.12
+libnppitc.so.12
+-rwxrwxr-x 1 root root 1004968 Oct 18 09:04 sample12
+teapot_CompressedMarkerLabelsUFBatch_8Way_512x512_32u succeeded, compressed label count is 155342.
+CT_Skull_CompressedMarkerLabelsUFBatch_8Way_512x512_32u succeeded, compressed label count is 414.
+PCB_METAL_CompressedMarkerLabelsUFBatch_8Way_509x335_32u succeeded, compressed label count is 3731.
+PCB2_CompressedMarkerLabelsUFBatch_8Way_1024x683_32u succeeded, compressed label count is 1224.
+PCB_CompressedMarkerLabelsUFBatch_8Way_1280x720_32u succeeded, compressed label count is 1456.
+CT_skull_CompressedMarkerLabelsUFBatch_8Way_512x512_32u.raw
+CT_skull_CompressedMarkerLabelsUF_8Way_512x512_32u.raw
+CT_skull_LabelMarkersUFBatch_8Way_512x512_32u.raw
+CT_skull_LabelMarkersUF_8Way_512x512_32u.raw
+PCB2_CompressedMarkerLabelsUFBatch_8Way_1024x683_32u.raw
+PCB2_CompressedMarkerLabelsUF_8Way_1024x683_32u.raw
+PCB2_LabelMarkersUFBatch_8Way_1024x683_32u.raw
+PCB2_LabelMarkersUF_8Way_1024x683_32u.raw
+PCB_CompressedMarkerLabelsUFBatch_8Way_1280x720_32u.raw
+PCB_CompressedMarkerLabelsUF_8Way_1280x720_32u.raw
+PCB_LabelMarkersUFBatch_8Way_1280x720_32u.raw
+PCB_LabelMarkersUF_8Way_1280x720_32u.raw
+PCB_METAL_CompressedMarkerLabelsUFBatch_8Way_509x335_32u.raw
+PCB_METAL_CompressedMarkerLabelsUF_8Way_509x335_32u.raw
+PCB_METAL_LabelMarkersUFBatch_8Way_509x335_32u.raw
+PCB_METAL_LabelMarkersUF_8Way_509x335_32u.raw
+teapot_CompressedMarkerLabelsUFBatch_8Way_512x512_32u.raw
+teapot_CompressedMarkerLabelsUF_8Way_512x512_32u.raw
+teapot_LabelMarkersUFBatch_8Way_512x512_32u.raw
+teapot_LabelMarkersUF_8Way_512x512_32u.raw

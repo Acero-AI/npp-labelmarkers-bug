@@ -1,0 +1,19 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA A100-SXM4-40GB (sm_80), runtime 12080, driver 12080
+
+A. the 3 x 3 image (left), labels (right); truth: 4 components with 8 neighbours
+NPP status -1000
+
+== NVIDIA sample images
+
+NPP status -1000
+
+NPP status -1000
+
+NPP status -1000
+
+NPP status -1000
+
+NPP status -1000

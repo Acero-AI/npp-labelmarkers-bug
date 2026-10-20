@@ -1,0 +1,14 @@
+loaded npp11/nvidia/npp/lib/libnppc.so.11
+loaded npp11/nvidia/npp/lib/libnppif.so.11
+NPP 11.8.0
+GPU NVIDIA GeForce RTX 3070 (sm_86), runtime 13020, driver 13020
+
+4 neighbours, attempt 0: 2 pixels kept, at rows 22-23, cols 0-23:
+      . . . . . . . . . . . . . . . . . . . . . . . 0 
+      0 . . . . . . . . . . . . . . . . . . . . . . . 
+4 neighbours, attempt 1: 2 pixels kept, at rows 22-23, cols 0-23:
+      . . . . . . . . . . . . . . . . . . . . . . . 1 
+      1 . . . . . . . . . . . . . . . . . . . . . . . 
+4 neighbours, attempt 2: 2 pixels kept, at rows 21-22, cols 0-23:
+      . . . . . . . . . . . . . . . . . . . . . . . 1 
+      1 . . . . . . . . . . . . . . . . . . . . . . . 

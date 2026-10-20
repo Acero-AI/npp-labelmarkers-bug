@@ -1,0 +1,22 @@
+[2026-10-19T04:47:55Z] 0 machine
+[2026-10-19T04:47:56Z] 1 NPP, pinned
+[2026-10-19T04:49:08Z] 2 npp_min, the 3 x 3 repro, 20 runs per version
+[2026-10-19T04:49:22Z]    sys: 20 wrong, 0 correct, 0 failed to run, of 20; NPP 12.3.3, NVIDIA A100-SXM4-40GB (sm_80)
+[2026-10-19T04:49:25Z]    13: 0 wrong, 0 correct, 20 failed to run, of 20; CUDA error CUDA driver version is insufficient for CUDA runtime version, line 26
+[2026-10-19T04:49:38Z]    12: 20 wrong, 0 correct, 0 failed to run, of 20; NPP 12.4.1, NVIDIA A100-SXM4-40GB (sm_80)
+[2026-10-19T04:49:52Z]    11: 0 wrong, 20 correct, 0 failed to run, of 20; NPP 11.8.0, NVIDIA A100-SXM4-40GB (sm_80)
+[2026-10-19T04:49:52Z] 3 harness, sections A-F and NVIDIA's images, every version
+[2026-10-19T04:53:25Z] 4 NVIDIA's sample (cuda-samples v12.5, unmodified) against NPP 12.4.1; 10 runs, run 1's files kept
+[2026-10-19T04:53:51Z] 4b NVIDIA's NPP+ 0.10.0 sample (CUDALibrarySamples), unmodified; 5 runs, run 1's files kept
+[2026-10-19T04:55:46Z] 4c NPP+ through the harness (its libraries named as NPP 12: same C symbols)
+loaded /root/nppcheck/nppplus_as_npp/libnppc.so.12
+loaded /root/nppcheck/nppplus_as_npp/libnppif.so.12
+NPP 12.4.0
+[2026-10-19T04:55:49Z] 5 our labeller, same GPU, 50 runs per image
+[2026-10-19T04:56:52Z] 6 pattern probe (patterns/probe.cu) per version, T1-T5 and the batch map
+[2026-10-19T04:57:17Z]    probe sys: NPP 12.3.3
+[2026-10-19T04:57:18Z]    probe 13: NPP 13.2.0
+[2026-10-19T04:57:38Z]    probe 12: NPP 12.4.1
+[2026-10-19T04:57:59Z]    probe 11: NPP 11.8.0
+[2026-10-19T04:58:10Z]    probe plus: NPP 12.4.0
+[2026-10-19T04:58:10Z] 7 done

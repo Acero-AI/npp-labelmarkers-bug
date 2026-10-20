@@ -1,0 +1,3 @@
+50 two-arm shapes, NPP+ 0.10.0 vs NPP 11 (RTX 4060 Ti): same verdict 46/50, same broken-link count 46/50; NPP+ wrong on 13, NPP 11 on 9
+50 two-arm shapes, NPP+ 0.10.0 vs NPP 12 (RTX 4060 Ti): same verdict 50/50, same broken-link count 50/50; NPP+ wrong on 13, NPP 12 on 13
+50 two-arm shapes, NPP+ 0.10.0 vs NPP 13 (RTX 4060 Ti): same verdict 47/50, same broken-link count 47/50; NPP+ wrong on 13, NPP 13 on 16

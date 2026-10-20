@@ -1,0 +1,15 @@
+loaded npp13/nvidia/cu13/lib/libnppc.so.13
+loaded npp13/nvidia/cu13/lib/libnppif.so.13
+NPP 13.2.0
+GPU NVIDIA A100-SXM4-40GB (sm_80), runtime 12080, driver 12080
+
+  as before (baseline)                         3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  scratch buffer x4                            3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  scratch buffer x16                           3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  stream context all zero but stream           3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  stream context from nppGetStreamContext      3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  row steps in elements, not bytes             3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  source rows padded (cudaMallocPitch)         3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  after nppiCompressMarkerLabelsUF             3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+  values mapped to 0/255 (8u input)            3x3: -   random 64x64: 0/0 wrong   NVIDIA PCB: - NPP status -1000
+NPP status -1000

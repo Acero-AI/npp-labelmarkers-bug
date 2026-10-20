@@ -1,0 +1,6 @@
+NPP Library Version 12.4.0
+CUDA Driver  Version: 12.8
+CUDA Runtime Version: 12.8
+
+Input file load succeeded.
+Lena_CompressedLabelMarkersUF_8Way_512x512_32u failed.

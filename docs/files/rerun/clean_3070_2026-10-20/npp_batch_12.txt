@@ -1,0 +1,48 @@
+NPP 12.4.1, NVIDIA GeForce RTX 3070 (sm_86), CUDA runtime 12090, driver supports 13000
+batch API, 2 images of 64 x 64 per call, 8 neighbours, 20 calls
+
+judge self-test: flood fill (42 regions) -> broken 0, merged 0; one pixel cut off -> broken 3; one label -> merged 2076
+call  0 image 0: batch 59 labels, broken links 19, merged labels 0 -> WRONG | single-image call: broken links 59, merged labels 0 -> WRONG
+call  0 image 1: batch 51 labels, broken links 11, merged labels 0 -> WRONG | single-image call: broken links 34, merged labels 0 -> WRONG
+call  1 image 0: batch 51 labels, broken links 8, merged labels 0 -> WRONG | single-image call: broken links 72, merged labels 0 -> WRONG
+call  1 image 1: batch 52 labels, broken links 7, merged labels 0 -> WRONG | single-image call: broken links 27, merged labels 0 -> WRONG
+call  2 image 0: batch 45 labels, broken links 4, merged labels 0 -> WRONG | single-image call: broken links 37, merged labels 0 -> WRONG
+call  2 image 1: batch 50 labels, broken links 5, merged labels 0 -> WRONG | single-image call: broken links 41, merged labels 0 -> WRONG
+call  3 image 0: batch 57 labels, broken links 10, merged labels 0 -> WRONG | single-image call: broken links 47, merged labels 0 -> WRONG
+call  3 image 1: batch 51 labels, broken links 16, merged labels 0 -> WRONG | single-image call: broken links 93, merged labels 0 -> WRONG
+call  4 image 0: batch 53 labels, broken links 2, merged labels 0 -> WRONG | single-image call: broken links 42, merged labels 0 -> WRONG
+call  4 image 1: batch 48 labels, broken links 4, merged labels 0 -> WRONG | single-image call: broken links 86, merged labels 0 -> WRONG
+call  5 image 0: batch 64 labels, broken links 5, merged labels 0 -> WRONG | single-image call: broken links 43, merged labels 0 -> WRONG
+call  5 image 1: batch 55 labels, broken links 5, merged labels 0 -> WRONG | single-image call: broken links 42, merged labels 0 -> WRONG
+call  6 image 0: batch 52 labels, broken links 10, merged labels 0 -> WRONG | single-image call: broken links 38, merged labels 0 -> WRONG
+call  6 image 1: batch 60 labels, broken links 11, merged labels 0 -> WRONG | single-image call: broken links 56, merged labels 0 -> WRONG
+call  7 image 0: batch 59 labels, broken links 12, merged labels 0 -> WRONG | single-image call: broken links 48, merged labels 0 -> WRONG
+call  7 image 1: batch 50 labels, broken links 12, merged labels 0 -> WRONG | single-image call: broken links 88, merged labels 0 -> WRONG
+call  8 image 0: batch 57 labels, broken links 8, merged labels 0 -> WRONG | single-image call: broken links 69, merged labels 0 -> WRONG
+call  8 image 1: batch 55 labels, broken links 1, merged labels 0 -> WRONG | single-image call: broken links 60, merged labels 0 -> WRONG
+call  9 image 0: batch 57 labels, broken links 6, merged labels 0 -> WRONG | single-image call: broken links 67, merged labels 0 -> WRONG
+call  9 image 1: batch 45 labels, broken links 9, merged labels 0 -> WRONG | single-image call: broken links 18, merged labels 0 -> WRONG
+call 10 image 0: batch 44 labels, broken links 13, merged labels 0 -> WRONG | single-image call: broken links 49, merged labels 0 -> WRONG
+call 10 image 1: batch 48 labels, broken links 8, merged labels 0 -> WRONG | single-image call: broken links 52, merged labels 0 -> WRONG
+call 11 image 0: batch 40 labels, broken links 15, merged labels 0 -> WRONG | single-image call: broken links 34, merged labels 0 -> WRONG
+call 11 image 1: batch 51 labels, broken links 25, merged labels 0 -> WRONG | single-image call: broken links 38, merged labels 0 -> WRONG
+call 12 image 0: batch 45 labels, broken links 18, merged labels 0 -> WRONG | single-image call: broken links 32, merged labels 0 -> WRONG
+call 12 image 1: batch 51 labels, broken links 1, merged labels 0 -> WRONG | single-image call: broken links 28, merged labels 0 -> WRONG
+call 13 image 0: batch 44 labels, broken links 6, merged labels 0 -> WRONG | single-image call: broken links 49, merged labels 0 -> WRONG
+call 13 image 1: batch 63 labels, broken links 10, merged labels 0 -> WRONG | single-image call: broken links 26, merged labels 0 -> WRONG
+call 14 image 0: batch 56 labels, broken links 4, merged labels 0 -> WRONG | single-image call: broken links 47, merged labels 0 -> WRONG
+call 14 image 1: batch 56 labels, broken links 7, merged labels 0 -> WRONG | single-image call: broken links 45, merged labels 0 -> WRONG
+call 15 image 0: batch 53 labels, broken links 9, merged labels 0 -> WRONG | single-image call: broken links 71, merged labels 0 -> WRONG
+call 15 image 1: batch 59 labels, broken links 5, merged labels 0 -> WRONG | single-image call: broken links 34, merged labels 0 -> WRONG
+call 16 image 0: batch 44 labels, broken links 4, merged labels 0 -> WRONG | single-image call: broken links 47, merged labels 0 -> WRONG
+call 16 image 1: batch 47 labels, broken links 16, merged labels 0 -> WRONG | single-image call: broken links 34, merged labels 0 -> WRONG
+call 17 image 0: batch 51 labels, broken links 11, merged labels 0 -> WRONG | single-image call: broken links 41, merged labels 0 -> WRONG
+call 17 image 1: batch 48 labels, broken links 16, merged labels 0 -> WRONG | single-image call: broken links 47, merged labels 0 -> WRONG
+call 18 image 0: batch 47 labels, broken links 10, merged labels 0 -> WRONG | single-image call: broken links 43, merged labels 0 -> WRONG
+call 18 image 1: batch 43 labels, broken links 4, merged labels 0 -> WRONG | single-image call: broken links 51, merged labels 0 -> WRONG
+call 19 image 0: batch 48 labels, broken links 8, merged labels 0 -> WRONG | single-image call: broken links 49, merged labels 0 -> WRONG
+call 19 image 1: batch 58 labels, broken links 33, merged labels 0 -> WRONG | single-image call: broken links 56, merged labels 0 -> WRONG
+
+single-image call: 40 of 40 images wrong
+40 of 40 images wrong
+exit 2

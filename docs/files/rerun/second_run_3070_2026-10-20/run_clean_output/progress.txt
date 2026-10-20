@@ -1,0 +1,21 @@
+[2026-10-20T11:21:45Z] machine
+[2026-10-20T11:21:45Z] checker: numpy and scipy in their own folder
+[2026-10-20T11:22:01Z] NPP from CUDA 11: nvidia-npp-cu11==11.8.0.86 with nvidia-cuda-runtime-cu11==11.8.89 (headers nvidia-cuda-nvcc-cu11==11.8.89)
+[2026-10-20T11:22:15Z]   npp_min, 20 runs
+[2026-10-20T11:22:23Z]   npp_batch (batch size 2, 20 calls)
+[2026-10-20T11:22:24Z]   npp_bufsize
+[2026-10-20T11:22:24Z]   probe_values
+[2026-10-20T11:22:25Z] NPP from CUDA 12: nvidia-npp-cu12==12.4.1.87 with nvidia-cuda-runtime-cu12==12.9.79 (headers nvidia-cuda-nvcc-cu12==12.9.86)
+[2026-10-20T11:22:45Z]   npp_min, 20 runs
+[2026-10-20T11:22:54Z]   npp_batch (batch size 2, 20 calls)
+[2026-10-20T11:22:54Z]   npp_bufsize
+[2026-10-20T11:22:54Z]   probe_values
+[2026-10-20T11:22:56Z] NPP from CUDA 13: nvidia-npp==13.2.0.58 with nvidia-cuda-runtime==13.4.92 (headers nvidia-cuda-crt==13.4.92)
+[2026-10-20T11:23:10Z]   npp_min, 20 runs
+[2026-10-20T11:23:23Z]   npp_batch (batch size 2, 20 calls)
+[2026-10-20T11:23:23Z]   npp_bufsize
+[2026-10-20T11:23:23Z]   probe_values
+[2026-10-20T11:23:26Z] NVIDIA's committed output files (cuda-samples tags v12.5 and v12.8), judged without a GPU
+[2026-10-20T11:27:01Z] NVIDIA's sample program, unmodified (tag v12.5), built with g++ against NPP 12.4.1 and CUDA runtime 12.9, 10 runs
+[2026-10-20T11:33:24Z] summary
+[2026-10-20T11:33:24Z] done: /root/audit3-npp/npp-labelmarkers-report/repro/out-20261020-112145

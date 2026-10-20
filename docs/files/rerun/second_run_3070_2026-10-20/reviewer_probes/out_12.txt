@@ -1,0 +1,5 @@
+NPP 12.4.1 on NVIDIA GeForce RTX 3070
+single, 70x70, 4624 offsets: correct 828, exceptions to the mod-16 rule 44
+batch of 2, 70x70, 4624 offsets: image0 correct 4624, exceptions to the rule 3840; image1 (pattern at 2,2) wrong 0
+single, 135x135, 17689 offsets: correct 3123, exceptions to the mod-16 rule 59
+row-end join, widths 3..130 (8 neighbours): row 0's last and row 1's first pixel share a label in 0 of 128; labelling wrong in 0

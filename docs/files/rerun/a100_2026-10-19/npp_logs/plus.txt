@@ -1,0 +1,18 @@
+loaded /root/nppcheck/nppplus_as_npp/libnppc.so.12
+loaded /root/nppcheck/nppplus_as_npp/libnppif.so.12
+NPP 12.4.0
+GPU NVIDIA A100-SXM4-40GB (sm_80), runtime 12080, driver 12080
+
+A. the 3 x 3 image (left), labels (right); truth: 4 components with 8 neighbours
+ as NVIDIA's sample: 8u input, scratch zeroed   truth 4, NPP 1, broken links 0, false merges 7 WRONG
+ 32u input, scratch zeroed                      truth 4, NPP 1, broken links 0, false merges 7 WRONG
+   0 2 0   |    0   0   0 
+   0 2 0   |    0   0   0 
+   1 0 1   |    0   0   0 
+ 32u, scratch left as allocated                 truth 4, NPP 1, broken links 0, false merges 7 WRONG
+ 32u, scratch filled 0xFF                       truth 4, NPP 1, broken links 0, false merges 7 WRONG
+ 32u, output pre-zeroed                         truth 4, NPP 1, broken links 0, false merges 7 WRONG
+ 32u, output pre-filled 0xFF                    truth 4, NPP 1, broken links 0, false merges 7 WRONG
+ 32u, own stream                                truth 4, NPP 1, broken links 0, false merges 7 WRONG
+ 16u input                                      truth 4, NPP 1, broken links 0, false merges 7 WRONG
+NPP status -1000

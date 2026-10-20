@@ -1,0 +1,11 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+teapot: 155343 regions, 50 runs, 1 distinct label images
+CT_skull: 407 regions, 50 runs, 1 distinct label images
+PCB_METAL: 3732 regions, 50 runs, 1 distinct label images
+PCB2: 1202 regions, 50 runs, 1 distinct label images
+PCB: 1436 regions, 50 runs, 1 distinct label images
+/root/nppcheck/out/ours/teapot_ours.u32: truth 155343, file has 155343 labels, broken links 0, merged labels 0 -> correct
+/root/nppcheck/out/ours/CT_skull_ours.u32: truth 407, file has 407 labels, broken links 0, merged labels 0 -> correct
+/root/nppcheck/out/ours/PCB_METAL_ours.u32: truth 3732, file has 3732 labels, broken links 0, merged labels 0 -> correct
+/root/nppcheck/out/ours/PCB2_ours.u32: truth 1202, file has 1202 labels, broken links 0, merged labels 0 -> correct
+/root/nppcheck/out/ours/PCB_ours.u32: truth 1436, file has 1436 labels, broken links 0, merged labels 0 -> correct

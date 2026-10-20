@@ -1,0 +1,6 @@
+../sample/batchedLabelMarkersAndLabelCompressionNPP.cpp: In function ‘int main(int, char**)’:
+../sample/batchedLabelMarkersAndLabelCompressionNPP.cpp:447:19: error: ‘nppiCompressMarkerLabelsUF_32u_C1IR’ was not declared in this scope; did you mean ‘nppiCompressMarkerLabelsUF_32u_C1IR_Ctx’?
+  447 |       nppStatus = nppiCompressMarkerLabelsUF_32u_C1IR(
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   nppiCompressMarkerLabelsUF_32u_C1IR_Ctx
+sample build failed

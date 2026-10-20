@@ -1,0 +1,16 @@
+code/npp_debug.cu(249): warning #1650-D: result of call is not used
+              std::vector<uint8_t> b(1280 * 720); fread(b.data(), 1, b.size(), fp); fclose(fp);
+                                                  ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+code/npp_debug.cu(249): warning #1650-D: result of call is not used
+              std::vector<uint8_t> b(1280 * 720); fread(b.data(), 1, b.size(), fp); fclose(fp);
+                                                  ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+code/npp_debug.cu: In function ‘int npp_debug_main(int, char**)’:
+code/npp_debug.cu:249:50: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  249 |             std::vector<uint8_t> b(1280 * 720); fread(b.data(), 1, b.size(), fp); fclose(fp);
+      |                                             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~

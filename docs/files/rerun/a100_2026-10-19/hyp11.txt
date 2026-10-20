@@ -1,0 +1,16 @@
+loaded npp11/nvidia/npp/lib/libnppc.so.11
+loaded npp11/nvidia/npp/lib/libnppif.so.11
+NPP 11.8.0
+GPU NVIDIA A100-SXM4-40GB (sm_80), runtime 12080, driver 12080
+
+  as before (baseline)                         3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  scratch buffer x4                            3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  scratch buffer x16                           3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  stream context all zero but stream           3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  stream context from nppGetStreamContext      3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  row steps in elements, not bytes             3x3: WRONG   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  source rows padded (cudaMallocPitch)         3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  after nppiCompressMarkerLabelsUF             3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  values mapped to 0/255 (8u input)            3x3: ok   random 64x64: 20/20 wrong   NVIDIA PCB: WRONG 
+  NPP 8-way on 3x3 gives 4 labels; 8-way truth 4 (match), 4-way truth 6 (mismatch)
+  NPP 4-way on 3x3 gives 5 labels; 8-way truth 4 (mismatch), 4-way truth 6 (mismatch)
